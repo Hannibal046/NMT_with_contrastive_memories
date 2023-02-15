@@ -6,6 +6,7 @@ The main idea of this paper is to exploit contrastive translation memories in re
 <div align=center>
 <img src="model.png" width="650" height="600">
 </div>
+
 ## Environment
 
 The required packages are listed in `requirement.txt` and we highly recommend to use `conda` to create an isolated environment as follows:
@@ -36,7 +37,7 @@ For ready-to-go memory, we provide it [here](https://drive.google.com/file/d/15L
 
 The whoel model is based on the awesome [HuggingFace/Transformers](https://github.com/huggingface/transformers). The definition of a **CMM** model is in `module.py` and `model.py`
 
-After everything is ready, just run the following command would get a **CMM** model in En->De direction. All configs could be modified in `args.py`.
+After everything is set up, just runing the following command would get a **CMM** model in En->De direction. All configs could be modified in `args.py`.
 
 ```python
 python main.py
